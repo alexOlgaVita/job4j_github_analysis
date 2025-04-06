@@ -4,12 +4,10 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestInstance;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import ru.job4j.dto.RepositoryCommits;
 import ru.job4j.mapper.RepositoryCommitsMapper;
 import ru.job4j.model.Commit;
 import ru.job4j.model.Repository;
 import ru.job4j.repository.CommitRepository;
-import ru.job4j.repository.RepoRepository;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
